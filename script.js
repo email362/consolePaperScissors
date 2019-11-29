@@ -51,7 +51,7 @@ let game = () => {
       }
     } 
     console.log(result);
-    return result;
+    return "Round " + rounds + ": " + result;
   };
 
   while(rounds < 6) {
