@@ -49,9 +49,10 @@ let game = () => {
         result = 'You lose! Rock beats Scissors.';
         computerPoints = computerPoints + 1;
       }
-    } 
+    }
+    result =  "Round " + rounds + ": " + result;
     console.log(result);
-    return "Round " + rounds + ": " + result;
+    return result;
   };
 
   while(rounds < 6) {
